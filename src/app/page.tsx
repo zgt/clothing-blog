@@ -55,10 +55,10 @@ export default function Example() {
         ```
       */}
       <div className="min-h-full">
-        <div className="bg-gray-800 pb-32">
-          <Disclosure as="nav" className="bg-gray-800">
+        <div className="bg-green-900 pb-32">
+          <Disclosure as="nav" className="bg-green-900">
             <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
-              <div className="border-b border-gray-700">
+              <div className="border-b border-white-700">
                 <div className="flex h-16 items-center justify-between px-4 sm:px-0">
                   <div className="flex items-center">
                     <div className="shrink-0">
@@ -77,7 +77,7 @@ export default function Example() {
                             aria-current={item.current ? 'page' : undefined}
                             className={classNames(
                               item.current
-                                ? 'bg-gray-900 text-white'
+                                ? 'bg-green-950 text-white'
                                 : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                               'rounded-md px-3 py-2 text-sm font-medium',
                             )}
