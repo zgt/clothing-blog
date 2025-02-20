@@ -183,7 +183,6 @@ export default function Example() {
           </header>
         </div>
         <PhotoGrid/>
-        
       </div>
     </>
   )
